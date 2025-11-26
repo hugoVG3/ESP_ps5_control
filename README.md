@@ -151,13 +151,22 @@ The `ps5` object provides direct access to all controller features.
 **1. The controller won't pair.**
 
   * Ensure the MAC address in `ps5.begin()` matches your controller exactly.
-  * Put the controller in pairing mode (Hold **Share** + **PS Button** until it flashes rapidly) *before* booting the ESP32.
+  * Put the controller in pairing mode (Hold **Share** + **PS Button** until it flashes rapidly) *before* or *after* booting the ESP32 (depending on model).
   * Try pressing the reset button on the back of the controller.
 
 **2. Compilation Errors?**
 
   * Ensure you have the latest **ESP32 Board Manager** installed in Arduino IDE.
   * Select "ESP32 Dev Module" as your board.
+  * 
+**3. i can't find my controller's MAC adress without a ps5**
+i used to have this problem too, and couldn't find a solution anywhere. don't worry you only need a laptop with windows and bluetooth capabilities:
+  * connect your controller to your laptop (Hold **Share** + **PS Button** until it flashes rapidly, then search for it under bluetooth devices)
+  * now go to "*bluetooth and devices > Devices*" and scroll to the end to go to "*More bluetoth settings*" and choose the "*hardware*" window
+  * in here you'll search for your "*ps5 remote*" and click on it, then click on the "*properties*" button on the bottom right
+  * finally, go to the "*details*" page and from all the options, choose "*bluetooth device adress*" and there you have your 12 character MAC address
+  * finally, make sure to *separate the adress by colons each two characters* and you're done!
+    
 
 -----
 
