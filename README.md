@@ -164,4 +164,4 @@ The `ps5` object provides direct access to all controller features.
 ### 📄 License
 
 This library is a single-header adaptation of open-source PS5 logic.
-[MIT License]()
+[MIT License](https://github.com/hugoVG3/ESP_ps5_control?tab=MIT-1-ov-file)
