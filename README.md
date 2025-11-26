@@ -158,8 +158,9 @@ The `ps5` object provides direct access to all controller features.
 
   * Ensure you have the latest **ESP32 Board Manager** installed in Arduino IDE.
   * Select "ESP32 Dev Module" as your board.
-  * 
+    
 **3. i can't find my controller's MAC adress without a ps5**
+
 i used to have this problem too, and couldn't find a solution anywhere. don't worry you only need a laptop with windows and bluetooth capabilities:
   * connect your controller to your laptop (Hold **Share** + **PS Button** until it flashes rapidly, then search for it under bluetooth devices)
   * now go to "*bluetooth and devices > Devices*" and scroll to the end to go to "*More bluetoth settings*" and choose the "*hardware*" window
